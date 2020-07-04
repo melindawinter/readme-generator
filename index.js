@@ -5,7 +5,19 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-const questions = [];
+const questions = [
+  {
+    type: "input",
+    name: "github",
+    message: "What is your GitHub username?",
+  },
+  {
+    type: "list",
+    name: "license",
+    message: "Which license would you like to use for your project?",
+    choices: ["Apache", "MIT", "GNU"],
+  },
+];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -13,7 +25,9 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {}
+function init() {
+  inquirer.prompt(questions).then(({ github, license }) => {});
+}
 
 // function call to initialize program
 init();
