@@ -6,11 +6,31 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
+  // Project title
   {
     type: "input",
-    name: "project",
-    message: "What is the name of your project?",
+    name: "title",
+    message: "What is the title of your project?",
   },
+  //  Description
+  {
+    type: "input",
+    name: "description",
+    message: "How would you describe your project?",
+  },
+  //  Installation
+  {
+    type: "input",
+    name: "installation",
+    message: "How does a user install your project?",
+  },
+  // Usage
+  {
+    type: "input",
+    name: "usage",
+    message: "What is the intended usage for your project?",
+  },
+  //  License
   {
     type: "list",
     name: "license",
@@ -21,6 +41,35 @@ const questions = [
       "MIT License",
     ],
   },
+  //  Contributing
+  {
+    type: "input",
+    name: "contributing",
+    message: "How can other developers contribute to this project?",
+  },
+  //  Tests
+  {
+    type: "input",
+    name: "tests",
+    message:
+      "Do you have any tests you would like to include? How should users run your tests?",
+  },
+  //  Questions
+  {
+    type: "input",
+    name: "username",
+    message: "What is your GitHub username?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+  },
+  {
+    type: "input",
+    name: "contact",
+    message: "How can you be reached with questions about this project?",
+  },
 ];
 
 // function to write README file
@@ -30,7 +79,22 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-  inquirer.prompt(questions).then(({ project, license }) => {});
+  inquirer
+    .prompt(questions)
+    .then(
+      ({
+        title,
+        description,
+        installation,
+        usage,
+        license,
+        contributing,
+        tests,
+        username,
+        email,
+        contact,
+      }) => {}
+    );
 }
 
 // function call to initialize program
