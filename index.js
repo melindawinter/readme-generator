@@ -93,7 +93,40 @@ function init() {
         username,
         email,
         contact,
-      }) => {}
+      }) => {
+        let licenseBadge = "";
+        let licenseDescription = "";
+        if (license === "Apache License 2.0") {
+          console.log("This is an Apache license");
+          licenseBadge =
+            "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
+          licenseDescription = "This is the description";
+        } else if (license === "GNU General Public License v3.0") {
+          console.log("This is an GNU license");
+        } else {
+          console.log("This is an MIT license");
+        }
+
+        const dataObject = {
+          title: title,
+          description: description,
+          installation: installation,
+          usage: usage,
+          license: license,
+          licenseBadge: licenseBadge,
+          licenseDescription: licenseDescription,
+          contributing: contributing,
+          tests: tests,
+          username: username,
+          email: email,
+          contact: contact,
+        };
+        console.log(dataObject);
+
+        const markdownResults = generateMarkdown(dataObject);
+
+        writeToFile("output.md", markdownResults);
+      }
     );
 }
 
