@@ -94,6 +94,9 @@ function init() {
         email,
         contact,
       }) => {
+        if (username) {
+          usernameLink = "https:github.com/" + username;
+        }
         let licenseBadge = "";
         let licenseDescription = "";
         if (license === "Apache License 2.0") {
@@ -124,11 +127,12 @@ function init() {
           contributing: contributing,
           tests: tests,
           username: username,
+          usernameLink: usernameLink,
           email: email,
           contact: contact,
         };
-        console.log(dataObject);
 
+        // Sending the results to the markdown file
         const markdownResults = generateMarkdown(dataObject);
 
         writeToFile("output.md", markdownResults);
