@@ -72,12 +72,12 @@ const questions = [
   },
 ];
 
-// function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// function to initialize program
+// Function to initialize program
 function init() {
   inquirer
     .prompt(questions)
@@ -97,14 +97,20 @@ function init() {
         let licenseBadge = "";
         let licenseDescription = "";
         if (license === "Apache License 2.0") {
-          console.log("This is an Apache license");
           licenseBadge =
             "https://img.shields.io/badge/License-Apache%202.0-blue.svg";
-          licenseDescription = "This is the description";
+          licenseDescription =
+            "The Apache License allows users to distribute and modify software but does not allow them to remove existing copyright, patent, trademark, and attribution notices.";
         } else if (license === "GNU General Public License v3.0") {
-          console.log("This is an GNU license");
+          licenseBadge =
+            "https://img.shields.io/badge/License-GNU%202.0-blue.svg";
+          licenseDescription =
+            "The GNU License allows the software to be modified and distributed by other users. It does not impose any restrictions on the use of the software but requires that it remain open source.";
         } else {
-          console.log("This is an MIT license");
+          licenseBadge =
+            "https://img.shields.io/badge/License-MIT%202.0-blue.svg";
+          licenseDescription =
+            "The MIT License is a permissive license with only very limited restriction on reuse and has good compatibility because it can be re-licensed under other licenses";
         }
 
         const dataObject = {
@@ -130,5 +136,5 @@ function init() {
     );
 }
 
-// function call to initialize program
+// Function call to initialize program
 init();
