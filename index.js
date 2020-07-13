@@ -52,7 +52,7 @@ const questions = [
     type: "input",
     name: "tests",
     message:
-      "Do you have any tests you would like to include? How should users run your tests?",
+      "If you have included tests with your project, what command will run your tests?",
   },
   //  Questions
   {
