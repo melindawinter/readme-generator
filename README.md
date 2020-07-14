@@ -2,7 +2,7 @@
 
 ## Description
 
-I have created a command line program that will help users effortlessly make a professional README for their projects. It uses JavaScript and node.js. 
+I have created a command line program that will help users effortlessly make a professional README for their projects. It uses JavaScript and node.js.
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ The GNU License allows the software to be modified and distributed by other user
 
 ## Contributing
 
-Please contribute to this project if you feel that you can make the code more efficient or if you'd like to add more questions for the user.  Create your own branch from the Master and submit a pull request. I ask that you follow the Contributor Covenant code of conduct. [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) 
+Please contribute to this project if you feel that you can make the code more efficient or if you'd like to add more questions for the user. Create your own branch from the Master and submit a pull request. I ask that you follow the Contributor Covenant code of conduct. <https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md> ![Contributor Covenant Badge](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
 
 ## Tests
 
