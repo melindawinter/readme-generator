@@ -96,7 +96,7 @@ function init() {
       }) => {
         // To write the username as a link
         if (username) {
-          usernameLink = "https:github.com/" + username;
+          usernameLink = "https://github.com/" + username;
         }
         // To assign the correct license badge and description based on user choice
         let licenseBadge = "";

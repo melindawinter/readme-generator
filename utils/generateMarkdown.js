@@ -39,7 +39,7 @@ ${data.tests}
 
 ## Questions
 
-- ![Github Profile](${data.usernameLink})
+- [Github Profile](${data.usernameLink})
 - ${data.email}
 - ${data.contact}
 `;
