@@ -19,7 +19,7 @@ If you would like to use this generator, please clone my project. Make sure you 
 
 ## Usage
 
-Once you have a cloned version, open it up in VS Code or another editor. Open up your terminal and make sure you are in the correct directory folder. Type "node index.js" into the command line and press Enter. Type in an answer or use the arrow keys to choose from a drop-down. When you have answered all of the questions, a formatted README file will be generated for you.
+Once you have a cloned version, open it up in VS Code or another editor. Open up your terminal and make sure you are in the correct directory folder. Type "node index.js" into the command line and press Enter. Type in an answer or use the arrow keys to choose from a drop-down. When you have answered all the questions, a formatted README file will be generated for you.
 
 ## License
 
@@ -29,7 +29,7 @@ The GNU License allows the software to be modified and distributed by other user
 
 ## Contributing
 
-Please contribute to this project if you feel that you can make the code more efficient or if you'd like to add more questions for the user. Create your own branch from the Master and submit a pull request. I ask that you follow the Contributor Covenant code of conduct. <https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md> ![Contributor Covenant Badge](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
+Please contribute to this project if you feel that you can make the code more efficient or if you'd like to add more questions for the user.  Create your own branch from the Master and submit a pull request. I ask that you follow the Contributor Covenant code of conduct. ![Contributor Covenant Badge](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
 
 ## Tests
 
@@ -37,6 +37,6 @@ There are no tests at this time. If you feel that adding some would improve the 
 
 ## Questions
 
-- ![Github Profile](https:github.com/melindawintermelindawinter42@gmail.com)
+- ![Github Profile](https:github.com/melindawinter)
 - melindawinter42@gmail.com
 - You can easily reach me by email or you can find me on LinkedIn here <http://www.linkedin.com/in/melinda-winter-34a25689>.
