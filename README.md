@@ -2,7 +2,9 @@
 
 ## Description
 
-I have created a command line program that will help users effortlessly make a professional README for their projects. It uses JavaScript and node.js.
+I have created a command line program that will help users effortlessly make a professional README for their projects. It uses JavaScript and node.js. Please find the link to a video demonstration below.
+
+<https://melindawinter.github.io/readme-generator/>
 
 ## Table of Contents
 
