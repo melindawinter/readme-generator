@@ -107,8 +107,7 @@ function init() {
           licenseDescription =
             "The Apache License allows users to distribute and modify software but does not allow them to remove existing copyright, patent, trademark, and attribution notices.";
         } else if (license === "GNU General Public License v3.0") {
-          licenseBadge =
-            "https://img.shields.io/badge/License-GNU%202.0-blue.svg";
+          licenseBadge = "https://img.shields.io/badge/License-GPLv3-blue.svg";
           licenseDescription =
             "The GNU License allows the software to be modified and distributed by other users. It does not impose any restrictions on the use of the software but requires that it remain open source.";
         } else {
