@@ -1,8 +1,8 @@
-# Professional README Generator ![License](https://img.shields.io/badge/License-GNU%202.0-blue.svg)
+# g ![License](https://img.shields.io/badge/License-MIT%202.0-blue.svg)
 
 ## Description
 
-I have created a command line program that will help users effortlessly make a professional README for their projects. It uses JavaScript and node.js.
+s
 
 ## Table of Contents
 
@@ -15,28 +15,28 @@ I have created a command line program that will help users effortlessly make a p
 
 ## Installation
 
-If you would like to use this generator, please clone my project. Make sure you have node.js installed on your computer. You can find the download here <https://nodejs.org/en/download/>.
+d
 
 ## Usage
 
-Once you have a cloned version, open it up in VS Code or another editor. 
+Once you have a cloned version, open it up in VS Code or another editor. ! [VS Code](images/open-in-vscode.png)
 
 ## License
 
-GNU General Public License v3.0
+MIT License
 
-The GNU License allows the software to be modified and distributed by other users. It does not impose any restrictions on the use of the software but requires that it remain open source.
+The MIT License is a permissive license with only very limited restriction on reuse and has good compatibility because it can be re-licensed under other licenses
 
 ## Contributing
 
-c
+b
 
 ## Tests
 
-b
+c
 
 ## Questions
 
-- ![Github Profile](https:github.com/g)
-- n
-- b
+- ![Github Profile](https:github.com/s)
+- d
+- g
