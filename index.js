@@ -94,9 +94,11 @@ function init() {
         email,
         contact,
       }) => {
+        // To write the username as a link
         if (username) {
           usernameLink = "https:github.com/" + username;
         }
+        // To assign the correct license badge and description based on user choice
         let licenseBadge = "";
         let licenseDescription = "";
         if (license === "Apache License 2.0") {
@@ -115,7 +117,7 @@ function init() {
           licenseDescription =
             "The MIT License is a permissive license with only very limited restriction on reuse and has good compatibility because it can be re-licensed under other licenses";
         }
-
+        // Data object
         const dataObject = {
           title: title,
           description: description,
@@ -135,7 +137,7 @@ function init() {
         // Sending the results to the markdown file
         const markdownResults = generateMarkdown(dataObject);
 
-        writeToFile("output.md", markdownResults);
+        writeToFile("README.md", markdownResults);
       }
     );
 }
